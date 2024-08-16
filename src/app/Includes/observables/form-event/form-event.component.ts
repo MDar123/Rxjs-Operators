@@ -10,9 +10,10 @@ constructor(){}
 @ViewChild('addBtn') addBtn!:ElementRef;
 ngOnInit(){}
 ngAfterViewInit(){
+debugger
+let count=0;
 fromEvent(this.addBtn.nativeElement,'click').subscribe((res:any)=>{
-  let count=0;
-  console.log('Video ' + count++);
+console.log('Video ' + count++);
 })
 }
 

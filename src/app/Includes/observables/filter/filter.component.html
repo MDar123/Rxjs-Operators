@@ -1,0 +1,29 @@
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h1>Learning Filter Operator</h1>
+<strong> Filter Operator:  The filter operator allows you to emit values based on a specified condition.</strong>
+<h5>For Example See Below</h5>
+</div>
+</div>
+<div class="row">
+<p>Example Execuition Here : </p>
+<button class="btn btn-primary" (click)="fetchData()">Fetch Data</button>
+<h6>Details of Users</h6>
+@for(item of fetchedData; track item){
+    <div>
+     {{item | json}}   
+    </div>
+}
+</div>
+<div class="row">
+        <p>Execuition of filtered data using Filter Operator  Here : </p>
+        <button class="btn btn-primary" (click)="fetchFilteredData()">Fetch Filtered Data</button>
+        <h6>Details of Filtered Users</h6>
+        @for(item of filteredData; track item){
+            <div>
+             {{item | json}}   
+            </div>
+        }
+        </div>
+</div>

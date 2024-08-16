@@ -9,6 +9,10 @@ import { PromisesComponent } from './Includes/promises/promises.component';
 import { ObservablesComponent } from './Includes/observables/observables.component';
 import { ListComponent } from './Includes/observables/list/list.component';
 import { FormEventComponent } from './Includes/observables/form-event/form-event.component';
+import { FilterComponent } from './Includes/observables/filter/filter.component';
+import { ConcatAndMergeComponent } from './Includes/observables/concat-and-merge/concat-and-merge.component';
+import { DebounceTimeComponent } from './Includes/observables/debounce-time/debounce-time.component';
+import { RetryComponent } from './Includes/observables/retry/retry.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +20,11 @@ import { FormEventComponent } from './Includes/observables/form-event/form-event
     PromisesComponent,
     ObservablesComponent,
     ListComponent,
-    FormEventComponent
+    FormEventComponent,
+    FilterComponent,
+    ConcatAndMergeComponent,
+    DebounceTimeComponent,
+    RetryComponent
   ],
   imports: [
     BrowserModule,

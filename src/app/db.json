@@ -1,0 +1,74 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "first_name": "Rad",
+            "last_name": "Redman",
+            "email": "rredman0@stumbleupon.com",
+            "gender": "Male"
+        },
+        {
+            "id": 2,
+            "first_name": "Koralle",
+            "last_name": "Font",
+            "email": "kfont1@wufoo.com",
+            "gender": "Female"
+        },
+        {
+            "id": 3,
+            "first_name": "Natassia",
+            "last_name": "Courtes",
+            "email": "ncourtes2@house.gov",
+            "gender": "Female"
+        },
+        {
+            "id": 4,
+            "first_name": "Margarete",
+            "last_name": "Clementet",
+            "email": "mclementet3@ucoz.com",
+            "gender": "Female"
+        },
+        {
+            "id": 5,
+            "first_name": "Joseph",
+            "last_name": "Dives",
+            "email": "jdives4@dedecms.com",
+            "gender": "Male"
+        },
+        {
+            "id": 6,
+            "first_name": "Brianna",
+            "last_name": "Deeley",
+            "email": "bdeeley5@tinyurl.com",
+            "gender": "Female"
+        },
+        {
+            "id": 7,
+            "first_name": "Meyer",
+            "last_name": "Milroy",
+            "email": "mmilroy6@ameblo.jp",
+            "gender": "Non-binary"
+        },
+        {
+            "id": 8,
+            "first_name": "Hermy",
+            "last_name": "Philpott",
+            "email": "hphilpott7@cornell.edu",
+            "gender": "Male"
+        },
+        {
+            "id": 9,
+            "first_name": "Michal",
+            "last_name": "Nyssen",
+            "email": "mnyssen8@shutterfly.com",
+            "gender": "Female"
+        },
+        {
+            "id": 10,
+            "first_name": "Hillel",
+            "last_name": "Trusty",
+            "email": "htrusty9@devhub.com",
+            "gender": "Male"
+        }
+    ]
+}
